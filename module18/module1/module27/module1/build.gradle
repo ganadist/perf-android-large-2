@@ -17,12 +17,12 @@ apply plugin: "kotlin-android"
 dependencies {
     api(project(":module18:module1:module27:module5"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module340:module3"))
     implementation(project(":module18:module1:module27:module5"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 
