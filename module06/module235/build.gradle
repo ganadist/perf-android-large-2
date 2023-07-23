@@ -57,3 +57,7 @@ dependencies {
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("org.robolectric:robolectric:4.3")
 }
+
+android {
+    namespace 'pkg.android.module06.module235'
+}

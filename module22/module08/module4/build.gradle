@@ -45,3 +45,7 @@ dependencies {
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace 'pkg.android.module22.module08.module4'
+}

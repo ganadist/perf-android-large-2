@@ -29,3 +29,7 @@ dependencies {
     testImplementation("junit:junit:4.13")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
 }
+
+android {
+    namespace 'pkg.android.module06.module130.module1'
+}

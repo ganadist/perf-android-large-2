@@ -60,3 +60,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
+
+android {
+    namespace 'pkg.android.module06.module167'
+}

@@ -33,3 +33,7 @@ dependencies {
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
 }
+
+android {
+    namespace 'pkg.android.module06.module158'
+}

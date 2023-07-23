@@ -30,3 +30,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
 }
+
+android {
+    namespace 'pkg.android.module06.module142'
+}

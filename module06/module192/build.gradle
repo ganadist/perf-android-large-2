@@ -50,3 +50,7 @@ dependencies {
     testImplementation("javax.xml.bind:jaxb-api:2.1")
     testImplementation("junit:junit:4.13")
 }
+
+android {
+    namespace 'pkg.android.module06.module192'
+}

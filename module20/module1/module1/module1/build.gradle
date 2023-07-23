@@ -42,3 +42,7 @@ dependencies {
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace 'pkg.android.module20.module1.module1.module1'
+}

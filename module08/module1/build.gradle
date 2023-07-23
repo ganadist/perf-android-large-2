@@ -21,3 +21,7 @@ dependencies {
     androidTestImplementation("junit:junit:4.13")
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace 'pkg.android.module08.module1'
+}

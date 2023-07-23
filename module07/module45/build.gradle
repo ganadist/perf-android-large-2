@@ -83,3 +83,7 @@ dependencies {
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("org.robolectric:robolectric:4.3")
 }
+
+android {
+    namespace 'pkg.android.module07.module45'
+}

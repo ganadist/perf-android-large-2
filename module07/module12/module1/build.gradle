@@ -36,3 +36,7 @@ dependencies {
     testImplementation(project(":module15:module36:module1"))
     testImplementation("com.squareup.workflow:workflow-testing-jvm:0.23.2")
 }
+
+android {
+    namespace 'pkg.android.module07.module12.module1'
+}

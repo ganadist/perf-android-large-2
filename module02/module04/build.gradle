@@ -36,3 +36,7 @@ dependencies {
     implementation(project(":module11"))
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace 'pkg.android.module02.module04'
+}

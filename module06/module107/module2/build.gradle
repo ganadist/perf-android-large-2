@@ -43,3 +43,7 @@ dependencies {
     testImplementation("org.mockito:mockito-core:2.28.2")
     testImplementation("org.threeten:threetenbp:1.4.0")
 }
+
+android {
+    namespace 'pkg.android.module06.module107.module2'
+}
