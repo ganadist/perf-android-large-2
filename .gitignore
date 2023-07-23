@@ -4,3 +4,6 @@ local.properties
 /gradle-user-home
 /profile-out*
 /.idea
+.classpath
+.project
+.settings

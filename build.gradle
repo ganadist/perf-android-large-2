@@ -1,27 +1,6 @@
-
-buildscript {
-    repositories {
-        google()
-        jcenter()
-        maven { url "https://dl.bintray.com/kotlin/kotlin-eap" }
-    }
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31")
-        classpath("com.android.tools.build:gradle:7.0.3")
-    }
-}
-
 plugins {
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url 'https://jitpack.io' }
-        maven { url "https://dl.bintray.com/kotlin/kotlin-eap" }
-     }
-}
-
-dependencies {
+    alias(libs.plugins.android.app).apply(false)
+    alias(libs.plugins.android.lib).apply(false)
+    alias(libs.plugins.kotlin.android).apply(false)
+    alias(libs.plugins.kotlin.kapt).apply(false)
 }
