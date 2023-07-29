@@ -1,0 +1,36 @@
+plugins{
+  id("com.android.library")
+  id("kotlin-android")
+  id("kotlin-kapt")
+}
+            android {
+                compileSdk = 29
+                defaultConfig {
+                    minSdk = 21
+                }
+                compileOptions {
+                    sourceCompatibility = JavaVersion.VERSION_1_8
+                    targetCompatibility = JavaVersion.VERSION_1_8
+                }
+                kotlinOptions {
+    jvmTarget = "1.8"
+}
+            }
+dependencies {
+    api(project(":module06:module084"))
+    api("com.google.dagger:dagger:2.28")
+    api("com.squareup.workflow:workflow-core-jvm:0.23.2")
+    compileOnly("javax.annotation:jsr250-api:1.0")
+    implementation(project(":module06:module084"))
+    implementation(project(":module06:module250:module4"))
+    implementation(project(":module06:module353:module1"))
+    implementation(project(":module06:module353:module2"))
+    implementation("com.google.dagger:dagger:2.28")
+    implementation("com.squareup.workflow:workflow-core-jvm:0.23.2")
+    kapt("com.google.dagger:dagger-compiler:2.28")
+    testImplementation(project(":module06:module339:module3:module1"))
+}
+
+android {
+    namespace = "pkg.android.module01.module30"
+}
