@@ -33,7 +33,7 @@ dependencies {
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module02:module25:module4"))
     testImplementation(project(":module02:module37:module11:module2"))

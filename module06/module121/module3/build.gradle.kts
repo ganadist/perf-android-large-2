@@ -18,11 +18,11 @@ plugins{
 dependencies {
     api("com.squareup.coordinators:coordinators:0.5")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("com.squareup.coordinators:coordinators:0.5")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

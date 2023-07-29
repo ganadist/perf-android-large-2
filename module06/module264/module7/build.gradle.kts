@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module06:module262:module6"))
     api(project(":module06:module333:module5"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module194"))
     implementation(project(":module06:module201:module1"))
     implementation(project(":module06:module230:module2"))
@@ -28,7 +28,7 @@ dependencies {
     implementation(project(":module06:module337:module3"))
     implementation("androidx.core:core-ktx:1.2.0")
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

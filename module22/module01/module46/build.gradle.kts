@@ -52,7 +52,7 @@ dependencies {
     implementation("com.google.dagger:dagger:2.28")
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("com.squareup.flow:flow:1.0.0-alpha3")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("junit:junit:4.13")

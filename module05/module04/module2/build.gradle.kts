@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module05:module04:module4"))
     api(project(":module06:module336:module1"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module05:module04:module1"))
     implementation(project(":module05:module04:module4"))
     implementation(project(":module06:module043"))
@@ -27,7 +27,7 @@ dependencies {
     implementation(project(":module06:module336:module1"))
     implementation(project(":module06:module349"))
     implementation(project(":module07:module84"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

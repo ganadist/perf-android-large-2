@@ -22,7 +22,7 @@ dependencies {
     api(project(":module06:module321:module10"))
     api("com.google.code.gson:gson:2.8.5")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module156:module3"))
     implementation(project(":module06:module279:module1"))
@@ -35,7 +35,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.5")
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module156:module3"))
     testImplementation(project(":module06:module197:module1"))
     testImplementation(project(":module06:module298:module4"))
@@ -46,7 +46,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

@@ -20,7 +20,7 @@ dependencies {
     api(project(":module17:module08:module1"))
     api(project(":module17:module08:module3"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly(project(":module04:module09:module4"))
     compileOnly(project(":module04:module12:module6"))
     compileOnly(project(":module04:module20"))
@@ -37,7 +37,7 @@ dependencies {
     implementation(project(":module17:module08:module1"))
     implementation(project(":module17:module08:module3"))
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module04:module09:module4"))
     testImplementation(project(":module04:module12:module6"))
@@ -54,7 +54,7 @@ dependencies {
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("com.squareup.retrofit2:retrofit:2.7.2")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

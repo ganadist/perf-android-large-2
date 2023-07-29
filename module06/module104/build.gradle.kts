@@ -51,7 +51,7 @@ dependencies {
     testImplementation(project(":module06:module339:module2"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

@@ -22,14 +22,14 @@ dependencies {
     api(project(":module15:module07:module1"))
     api(project(":module15:module62:module1"))
     api(project(":module22:module07:module02:module5"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module127"))
     implementation(project(":module06:module270"))
     implementation(project(":module06:module357"))
     implementation(project(":module15:module07:module1"))
     implementation(project(":module15:module62:module1"))
     implementation(project(":module22:module07:module02:module5"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

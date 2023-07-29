@@ -18,17 +18,17 @@ plugins{
 dependencies {
     api(project(":module06:module295:module6"))
     api("com.squareup.retrofit2:retrofit-mock:2.7.2")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module295:module6"))
     implementation("com.squareup.retrofit2:retrofit-mock:2.7.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.3.7")
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlinx.coroutines.rx2)
     testImplementation(project(":module06:module342:module4"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.7")
+    testImplementation(libs.kotlin.test.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
 }
 
 android {

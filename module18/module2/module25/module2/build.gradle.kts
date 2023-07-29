@@ -74,7 +74,7 @@ dependencies {
     api(project(":module18:module2:module28:module4"))
     api(project(":module18:module3:module2:module2"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module13"))
     implementation(project(":module01:module36"))
     implementation(project(":module06:module027:module3"))
@@ -148,8 +148,8 @@ dependencies {
     implementation(project(":module18:module3:module8"))
     implementation("com.squareup.workflow:workflow-rx2:0.23.2")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module067"))
     testImplementation(project(":module06:module073:module8"))
     testImplementation(project(":module06:module083:module10"))
@@ -176,7 +176,7 @@ dependencies {
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("com.squareup.workflow:workflow-testing-jvm:0.23.2")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

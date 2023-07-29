@@ -20,7 +20,7 @@ dependencies {
     implementation(project(":module06:module337:module3"))
     implementation(project(":module18:module3:module9"))
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation(libs.kotlin.android.extensions)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

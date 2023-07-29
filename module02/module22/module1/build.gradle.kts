@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module02:module22:module4"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module23"))
     implementation(project(":module02:module22:module4"))
     implementation(project(":module02:module37:module04:module3"))
@@ -39,8 +39,8 @@ dependencies {
     implementation("com.squareup.workflow:workflow-rx2:0.23.2")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

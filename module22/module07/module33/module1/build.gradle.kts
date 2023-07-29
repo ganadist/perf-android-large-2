@@ -17,14 +17,14 @@ plugins{
             }
 dependencies {
     annotationProcessor("com.uber.nullaway:nullaway:0.7.2")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("androidx.annotation:annotation:1.1.0")
     compileOnly("org.jetbrains:annotations:13.0")
     implementation(project(":module06:module086:module1"))
     implementation(project(":module06:module353:module2"))
     implementation(project(":module22:module07:module04:module3"))
     implementation(project(":module22:module07:module03:module1"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -21,7 +21,7 @@ dependencies {
     api(project(":module06:module255"))
     api(project(":module06:module339:module1"))
     api(project(":module06:module339:module2"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("org.jetbrains:annotations:13.0")
     implementation(project(":module06:module134:module7"))
     implementation(project(":module06:module185:module8"))
@@ -31,7 +31,7 @@ dependencies {
     implementation(project(":module06:module339:module1"))
     implementation(project(":module06:module339:module2"))
     implementation(project(":module15:module36:module1"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

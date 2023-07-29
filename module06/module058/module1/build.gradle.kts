@@ -25,7 +25,7 @@ dependencies {
     api(project(":module06:module342:module3"))
     api(project(":module06:module339:module1"))
     api("com.squareup.wire:wire-runtime:3.0.0")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module061:module5"))
     implementation(project(":module06:module073:module7"))
@@ -37,7 +37,7 @@ dependencies {
     implementation(project(":module06:module339:module1"))
     implementation(project(":module15:module36:module1"))
     implementation("com.squareup.wire:wire-runtime:3.0.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module073:module8"))
     testImplementation(project(":module06:module083:module10"))
     testImplementation(project(":module06:module197:module1"))
@@ -49,7 +49,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

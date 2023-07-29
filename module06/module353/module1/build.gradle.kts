@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module06:module353:module2"))
     api("com.squareup.coordinators:coordinators:0.5")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("androidx.annotation:annotation:1.1.0")
     compileOnly("org.jetbrains:annotations:13.0")
     implementation(project(":module06:module085"))
@@ -29,13 +29,13 @@ dependencies {
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("com.squareup.coordinators:coordinators:0.5")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module342:module4"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.robolectric:robolectric:4.3")
 }
 

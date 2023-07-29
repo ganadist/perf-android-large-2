@@ -24,7 +24,7 @@ dependencies {
     api(project(":module06:module201:module1"))
     api("io.reactivex.rxjava2:rxjava:2.2.19")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module02:module13:module3"))
     implementation(project(":module02:module37:module26:module3"))
     implementation(project(":module02:module37:module35"))
@@ -34,7 +34,7 @@ dependencies {
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

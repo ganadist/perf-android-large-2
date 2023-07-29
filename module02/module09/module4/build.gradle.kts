@@ -16,7 +16,7 @@ plugins{
 }
             }
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module02:module01:module1"))
     implementation(project(":module02:module21:module5"))
     implementation(project(":module02:module25:module3"))
@@ -36,8 +36,8 @@ dependencies {
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module197:module1"))
     testImplementation(project(":module06:module265"))
     testImplementation(project(":module06:module282:module2"))
@@ -48,7 +48,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
     testImplementation("org.robolectric:robolectric:4.3")
     testImplementation("org.threeten:threetenbp:1.4.0")

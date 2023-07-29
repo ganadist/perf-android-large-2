@@ -35,7 +35,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.robolectric:robolectric:4.3")
 }
 

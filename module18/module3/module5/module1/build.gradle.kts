@@ -16,7 +16,7 @@ plugins{
 }
             }
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module130:module3"))
     implementation(project(":module06:module207"))
     implementation(project(":module06:module337:module3"))
@@ -24,7 +24,7 @@ dependencies {
     implementation(project(":module15:module41:module1"))
     implementation(project(":module18:module1:module12:module3"))
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

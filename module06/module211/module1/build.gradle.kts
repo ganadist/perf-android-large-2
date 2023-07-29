@@ -22,14 +22,14 @@ dependencies {
     api("androidx.core:core-ktx:1.2.0")
     api("androidx.recyclerview:recyclerview:1.0.0")
     api("ca.barrenechea.header-decor:header-decor:0.2.8")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module207"))
     implementation(project(":module06:module210:module1"))
     implementation(project(":module06:module267:module1"))
     implementation("androidx.core:core-ktx:1.2.0")
     implementation("androidx.recyclerview:recyclerview:1.0.0")
     implementation("ca.barrenechea.header-decor:header-decor:0.2.8")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

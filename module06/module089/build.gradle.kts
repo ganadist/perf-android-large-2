@@ -28,13 +28,13 @@ dependencies {
     implementation("com.google.truth:truth:1.0")
     implementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     implementation("junit:junit:4.13")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation(libs.kotlin.android.extensions)
     implementation("org.mockito:mockito-core:2.28.2")
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("androidx.appcompat:appcompat:1.1.0")
     testImplementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.3.7")
+    testImplementation(libs.kotlin.test.junit)
+    testImplementation(libs.kotlinx.coroutines.rx2)
 }
 
 android {

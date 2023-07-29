@@ -20,9 +20,9 @@ dependencies {
     androidTestImplementation("androidx.test:runner:1.1.0")
     androidTestImplementation("com.google.truth:truth:1.0")
     androidTestImplementation("junit:junit:4.13")
-    androidTestImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    androidTestImplementation(libs.kotlin.test.junit)
+    api(libs.kotlin.stdlib)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

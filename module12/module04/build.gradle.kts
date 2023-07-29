@@ -56,7 +56,7 @@ dependencies {
     implementation(project(":module12:module18"))
     implementation(project(":module15:module31:module1"))
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation(libs.kotlin.android.extensions)
     testImplementation(project(":module06:module083:module10"))
     testImplementation(project(":module06:module089"))
     testImplementation(project(":module06:module245"))

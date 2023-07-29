@@ -26,7 +26,7 @@ dependencies {
     implementation(project(":module02:module32:module4"))
     implementation(project(":module02:module33:module4"))
     implementation(project(":module06:module243"))
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation(libs.kotlin.android.extensions)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -42,7 +42,7 @@ dependencies {
     implementation(project(":module15:module19:module1"))
     implementation(project(":module15:module36:module1"))
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module069"))
     testImplementation(project(":module06:module197:module1"))

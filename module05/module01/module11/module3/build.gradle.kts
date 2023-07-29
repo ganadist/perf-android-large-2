@@ -20,14 +20,14 @@ dependencies {
     api(project(":module06:module195"))
     api(project(":module06:module336:module1"))
     api(project(":module06:module347"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module05:module01:module11:module2"))
     implementation(project(":module05:module01:module11:module5"))
     implementation(project(":module06:module195"))
     implementation(project(":module06:module336:module1"))
     implementation(project(":module06:module347"))
     implementation("androidx.test.espresso:espresso-core:3.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -20,12 +20,12 @@ dependencies {
     api(project(":module06:module020:module5"))
     api(project(":module06:module161:module3"))
     api(project(":module06:module296"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module004:module4"))
     implementation(project(":module06:module020:module5"))
     implementation(project(":module06:module161:module3"))
     implementation(project(":module06:module296"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

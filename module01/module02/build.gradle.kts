@@ -19,12 +19,12 @@ plugins{
 dependencies {
     api(project(":module06:module090:module3"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("javax.annotation:jsr250-api:1.0")
     implementation(project(":module06:module090:module3"))
     implementation(project(":module15:module36:module1"))
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
 }

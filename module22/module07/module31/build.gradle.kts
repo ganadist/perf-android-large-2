@@ -19,7 +19,7 @@ plugins{
 dependencies {
     api(project(":module06:module109:module1"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("androidx.annotation:annotation:1.1.0")
     compileOnly("javax.annotation:jsr250-api:1.0")
     implementation(project(":module01:module33"))
@@ -39,7 +39,7 @@ dependencies {
     implementation(project(":module06:module359"))
     implementation("com.google.dagger:dagger:2.28")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module089"))
     testImplementation(project(":module06:module339:module3:module1"))

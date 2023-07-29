@@ -16,12 +16,12 @@ plugins{
 }
             }
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module127"))
     implementation(project(":module06:module254"))
     implementation("com.squareup.workflow:workflow-rx2:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

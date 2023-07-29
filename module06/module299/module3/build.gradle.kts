@@ -17,17 +17,17 @@ plugins{
             }
 dependencies {
     api(project(":module01:module39"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module39"))
     implementation(project(":module06:module243"))
     implementation(project(":module06:module352:module3"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module089"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
 }
 
 android {

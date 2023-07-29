@@ -17,13 +17,13 @@ plugins{
             }
 dependencies {
     api(project(":module06:module067"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module05:module01:module10:module5"))
     implementation(project(":module06:module044:module2"))
     implementation(project(":module06:module067"))
     implementation(project(":module06:module090:module3"))
     implementation(project(":module15:module21:module1"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

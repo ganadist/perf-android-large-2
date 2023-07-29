@@ -16,9 +16,9 @@ plugins{
 }
             }
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

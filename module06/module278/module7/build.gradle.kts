@@ -25,7 +25,7 @@ dependencies {
     api(project(":module06:module243"))
     api(project(":module06:module333:module5"))
     api(project(":module06:module339:module1"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("androidx.annotation:annotation:1.1.0")
     compileOnly("javax.inject:javax.inject:1")
     implementation(project(":module01:module19"))
@@ -40,7 +40,7 @@ dependencies {
     implementation(project(":module06:module337:module3"))
     implementation(project(":module06:module339:module1"))
     implementation("com.squareup.coordinators:coordinators:0.5")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

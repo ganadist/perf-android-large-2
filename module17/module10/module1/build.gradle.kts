@@ -16,7 +16,7 @@ plugins{
 }
             }
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly(project(":module17:module01:module3"))
     compileOnly("androidx.constraintlayout:constraintlayout:1.1.3")
     compileOnly("androidx.recyclerview:recyclerview:1.0.0")
@@ -26,7 +26,7 @@ dependencies {
     compileOnly("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation(project(":module17:module08:module3"))
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module197:module1"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation(project(":module17:module01:module3"))
@@ -39,7 +39,7 @@ dependencies {
     testImplementation("io.reactivex.rxjava2:rxandroid:2.1.1")
     testImplementation("io.reactivex.rxjava2:rxjava:2.2.19")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

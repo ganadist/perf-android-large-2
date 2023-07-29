@@ -21,12 +21,12 @@ dependencies {
     api(project(":module06:module086:module1"))
     api(project(":module06:module243"))
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module35"))
     implementation(project(":module06:module086:module1"))
     implementation(project(":module06:module243"))
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

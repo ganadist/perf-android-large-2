@@ -20,17 +20,17 @@ dependencies {
     api(project(":module15:module19:module1"))
     api("com.jakewharton.threetenabp:threetenabp:1.2.1")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module075:module4"))
     implementation(project(":module15:module19:module1"))
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
 }
 
 android {

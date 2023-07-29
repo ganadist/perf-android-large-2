@@ -18,14 +18,14 @@ plugins{
 dependencies {
     api(project(":module06:module141:module1:module13"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module40"))
     implementation(project(":module06:module067"))
     implementation(project(":module06:module141:module1:module13"))
     implementation(project(":module06:module326"))
     implementation(project(":module06:module357"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

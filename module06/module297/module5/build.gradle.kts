@@ -21,7 +21,7 @@ dependencies {
     api("com.google.truth:truth:1.0")
     api("com.squareup.retrofit2:retrofit-mock:2.7.2")
     api("junit:junit:4.13")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     api("org.mockito:mockito-core:2.28.2")
     api("org.robolectric:robolectric:4.3")
     implementation(project(":module06:module297:module4"))
@@ -31,7 +31,7 @@ dependencies {
     implementation("com.google.truth:truth:1.0")
     implementation("com.squareup.retrofit2:retrofit-mock:2.7.2")
     implementation("junit:junit:4.13")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     implementation("org.mockito:mockito-core:2.28.2")
     implementation("org.robolectric:robolectric:4.3")
     testImplementation(project(":module06:module156:module3"))
@@ -39,7 +39,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.squareup.okhttp3:mockwebserver:4.5.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
 }
 
 android {

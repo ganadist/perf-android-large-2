@@ -25,7 +25,7 @@ dependencies {
     implementation(project(":module15:module23:module1"))
     implementation(project(":module16:module1"))
     implementation("com.google.code.gson:gson:2.8.5")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")

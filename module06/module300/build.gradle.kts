@@ -17,13 +17,13 @@ plugins{
             }
 dependencies {
     api(project(":module06:module299:module3"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module04"))
     implementation(project(":module06:module134:module7"))
     implementation(project(":module06:module243"))
     implementation(project(":module06:module299:module3"))
     implementation(project(":module06:module298:module3"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")

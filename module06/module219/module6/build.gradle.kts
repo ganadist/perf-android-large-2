@@ -19,13 +19,13 @@ dependencies {
     api(project(":module06:module013:module6"))
     api(project(":module06:module254"))
     api(project(":module06:module295:module6"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("androidx.annotation:annotation:1.1.0")
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module254"))
     implementation(project(":module06:module295:module6"))
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

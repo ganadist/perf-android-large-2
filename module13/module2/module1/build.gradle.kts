@@ -18,15 +18,15 @@ plugins{
 dependencies {
     api(project(":module13:module2:module3"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module13:module2:module3"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.3.7")
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlinx.coroutines.rx2)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
 }
 
 android {

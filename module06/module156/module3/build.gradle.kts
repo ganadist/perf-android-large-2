@@ -18,18 +18,18 @@ plugins{
 dependencies {
     api("com.google.code.gson:gson:2.8.5")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module340:module3"))
     implementation(project(":module06:module342:module3"))
     implementation(project(":module15:module42:module1"))
     implementation("com.google.code.gson:gson:2.8.5")
     implementation("com.squareup.wire:wire-gson-support:3.0.0")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
 }
 
 android {

@@ -20,13 +20,13 @@ dependencies {
     api(project(":module06:module296"))
     api(project(":module06:module295:module6"))
     api("com.squareup.retrofit2:retrofit:2.7.2")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module006:module3"))
     implementation(project(":module06:module282:module1"))
     implementation(project(":module06:module296"))
     implementation(project(":module06:module295:module6"))
     implementation("com.squareup.retrofit2:retrofit:2.7.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

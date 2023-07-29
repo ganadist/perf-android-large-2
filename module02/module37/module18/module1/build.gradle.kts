@@ -22,7 +22,7 @@ dependencies {
     api("com.squareup.sqlbrite3:sqlbrite-kotlin:3.2.0")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module02:module37:module11:module1"))
     implementation(project(":module02:module37:module18:module3"))
     implementation(project(":module02:module37:module17:module1"))
@@ -30,7 +30,7 @@ dependencies {
     implementation("com.squareup.sqlbrite3:sqlbrite-kotlin:3.2.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -17,13 +17,13 @@ plugins{
             }
 dependencies {
     api(project(":module04:module12:module6"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module04:module12:module6"))
     implementation(project(":module04:module14"))
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

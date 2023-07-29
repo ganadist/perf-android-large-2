@@ -20,13 +20,13 @@ dependencies {
     api(project(":module06:module276:module1"))
     api(project(":module18:module1:module06:module1"))
     api(project(":module18:module1:module07:module3"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module067"))
     implementation(project(":module06:module276:module1"))
     implementation(project(":module18:module1:module06:module1"))
     implementation(project(":module18:module1:module07:module3"))
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

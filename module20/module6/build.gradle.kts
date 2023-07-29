@@ -45,9 +45,9 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("androidx.core:core-ktx:1.2.0")
     implementation("androidx.recyclerview:recyclerview:1.0.0")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("junit:junit:4.13")
 }

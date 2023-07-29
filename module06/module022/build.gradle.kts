@@ -24,7 +24,7 @@ dependencies {
     api(project(":module15:module36:module1"))
     api("com.squareup.workflow:workflow-core-jvm:0.23.2")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("javax.annotation:jsr250-api:1.0")
     compileOnly("org.jetbrains:annotations:13.0")
     implementation(project(":module06:module013:module6"))
@@ -49,7 +49,7 @@ dependencies {
     implementation("com.squareup.workflow:workflow-core-jvm:0.23.2")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module013:module3"))
     testImplementation(project(":module06:module089"))
     testImplementation(project(":module06:module199:module1"))
@@ -59,7 +59,7 @@ dependencies {
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.robolectric:robolectric:4.3")
 }
 

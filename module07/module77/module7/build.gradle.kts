@@ -19,12 +19,12 @@ dependencies {
     api(project(":module01:module21"))
     api(project(":module06:module243"))
     api("com.google.android.material:material:1.1.0")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module01:module21"))
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module243"))
     implementation("com.google.android.material:material:1.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -19,12 +19,12 @@ dependencies {
     annotationProcessor("com.google.dagger:dagger-compiler:2.28")
     api(project(":module06:module090:module3"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("javax.annotation:jsr250-api:1.0")
     compileOnly("org.jetbrains:annotations:13.0")
     implementation(project(":module06:module090:module3"))
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -17,12 +17,12 @@ plugins{
             }
 dependencies {
     api(project(":module02:module37:module29:module1"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module02:module37:module29:module1"))
     implementation("androidx.sqlite:sqlite-framework:2.0.1")
     implementation("androidx.sqlite:sqlite:2.0.1")
     implementation("junit:junit:4.13")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     implementation("org.robolectric:robolectric:4.3")
     testImplementation(project(":module06:module339:module3:module1"))
 }

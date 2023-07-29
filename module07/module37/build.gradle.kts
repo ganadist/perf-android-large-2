@@ -39,7 +39,7 @@ dependencies {
     implementation(project(":module06:module357"))
     implementation(project(":module07:module34"))
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module069"))
     testImplementation(project(":module06:module089"))

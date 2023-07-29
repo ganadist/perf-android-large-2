@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module07:module21:module11:module5"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     implementation(project(":module06:module025:module2"))
     implementation(project(":module06:module073:module7"))
     implementation(project(":module06:module201:module1"))
@@ -32,7 +32,7 @@ dependencies {
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module069"))
     testImplementation(project(":module06:module073:module8"))
     testImplementation(project(":module06:module197:module1"))
@@ -45,7 +45,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation(libs.kotlin.test.junit)
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

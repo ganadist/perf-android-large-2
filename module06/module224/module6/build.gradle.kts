@@ -19,7 +19,7 @@ dependencies {
     api(project(":module06:module084"))
     api("com.google.dagger:dagger:2.28")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api(libs.kotlin.stdlib)
     compileOnly("javax.annotation:jsr250-api:1.0")
     implementation(project(":module04:module20"))
     implementation(project(":module06:module013:module6"))
@@ -32,8 +32,8 @@ dependencies {
     implementation(project(":module06:module342:module3"))
     implementation("com.google.dagger:dagger:2.28")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation(libs.kotlin.android.extensions)
+    implementation(libs.kotlin.stdlib)
     testImplementation(project(":module06:module339:module3:module1"))
 }
 
