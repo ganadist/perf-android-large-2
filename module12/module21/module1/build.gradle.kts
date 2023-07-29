@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module12:module21:module3"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module013:module6"))
     implementation(project(":module07:module43:module3"))
     implementation(project(":module07:module54"))
@@ -26,7 +26,7 @@ dependencies {
     implementation(project(":module12:module17"))
     implementation(project(":module12:module21:module3"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -18,12 +18,12 @@ plugins{
 dependencies {
     api(project(":module02:module37:module16:module2"))
     api(project(":module02:module37:module28:module3"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module02:module37:module16:module2"))
     implementation(project(":module02:module37:module28:module3"))
     implementation("androidx.annotation:annotation:1.1.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

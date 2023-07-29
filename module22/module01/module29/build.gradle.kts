@@ -23,7 +23,7 @@ dependencies {
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
 }
 
 android {

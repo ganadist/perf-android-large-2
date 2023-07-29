@@ -26,7 +26,7 @@ dependencies {
     api("com.google.dagger:dagger:2.28")
     api("com.squareup.coordinators:coordinators:0.5")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module008"))
     implementation(project(":module06:module048"))
     implementation(project(":module06:module155"))
@@ -40,7 +40,7 @@ dependencies {
     implementation("com.squareup.coordinators:coordinators:0.5")
     implementation("com.squareup.okio:okio:2.2.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

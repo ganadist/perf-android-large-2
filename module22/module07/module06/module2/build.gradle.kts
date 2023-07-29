@@ -47,7 +47,7 @@ dependencies {
     api("com.squareup.okio:okio:2.2.2")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module01:module13"))
     implementation(project(":module04:module14"))
     implementation(project(":module06:module002:module5"))
@@ -96,7 +96,7 @@ dependencies {
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation("org.jetbrains:annotations:13.0")
     testImplementation(project(":module06:module339:module3:module1"))
 }

@@ -56,7 +56,7 @@ dependencies {
     testImplementation("com.squareup.burst:burst-junit4:1.1.1")
     testImplementation("com.squareup.sqlbrite3:sqlbrite-kotlin:3.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.robolectric:robolectric:4.3")
 }
 

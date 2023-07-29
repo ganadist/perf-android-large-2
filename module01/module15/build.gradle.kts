@@ -26,7 +26,7 @@ dependencies {
     implementation(project(":module15:module36:module1"))
     implementation(project(":module15:module56:module1"))
     implementation("com.squareup.okio:okio:2.2.2")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:${Versions.kotlin}")
     testImplementation(project(":module06:module255"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")

@@ -88,7 +88,7 @@ dependencies {
     implementation("com.google.android.material:material:1.1.0")
     implementation("com.squareup.okio:okio:2.2.2")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:${Versions.kotlin}")
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module029"))
     testImplementation(project(":module06:module069"))
@@ -110,7 +110,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.mockito:mockito-core:2.28.2")
     testImplementation("org.robolectric:robolectric:4.3")
 }

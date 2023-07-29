@@ -19,13 +19,13 @@ dependencies {
     api(project(":module06:module134:module7"))
     api(project(":module06:module353:module1"))
     api("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module134:module7"))
     implementation(project(":module06:module353:module1"))
     implementation(project(":module07:module59:module01:module1"))
     implementation(project(":module07:module59:module06:module4"))
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

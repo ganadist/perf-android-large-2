@@ -25,7 +25,7 @@ dependencies {
     api(project(":module15:module63:module1"))
     api("com.google.dagger:dagger:2.28")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("androidx.annotation:annotation:1.1.0")
     implementation(project(":module05:module14:module1:module4"))
     implementation(project(":module06:module004:module4"))
@@ -42,7 +42,7 @@ dependencies {
     implementation("com.google.dagger:dagger:2.28")
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module197:module1"))
     testImplementation(project(":module06:module294:module4"))
     testImplementation(project(":module06:module297:module5"))
@@ -51,7 +51,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module06:module336:module1"))
     api(project(":module18:module2:module19:module5"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module336:module1"))
     implementation(project(":module06:module347"))
     implementation(project(":module18:module2:module19:module2"))
@@ -26,7 +26,7 @@ dependencies {
     implementation(project(":module18:module3:module2:module1"))
     implementation(project(":module18:module3:module8"))
     implementation("androidx.test.espresso:espresso-core:3.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

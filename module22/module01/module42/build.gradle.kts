@@ -18,7 +18,7 @@ plugins{
 dependencies {
     implementation(project(":module06:module192"))
     implementation(project(":module06:module359"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

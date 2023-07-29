@@ -53,7 +53,7 @@ dependencies {
     implementation(project(":module15:module36:module1"))
     implementation("com.squareup.picasso:picasso:2.5.2")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module245"))
     testImplementation(project(":module06:module255"))
     testImplementation(project(":module06:module297:module1"))

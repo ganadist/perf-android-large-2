@@ -17,13 +17,13 @@ plugins{
             }
 dependencies {
     api(project(":module02:module37:module04:module3"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module02:module37:module04:module3"))
     implementation(project(":module02:module37:module11:module1"))
     implementation(project(":module06:module282:module1"))
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.1")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module342:module4"))
     testImplementation(project(":module06:module339:module3:module1"))
 }

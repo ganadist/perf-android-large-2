@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module06:module314:module5"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module136"))
     implementation(project(":module06:module143:module5"))
@@ -28,13 +28,13 @@ dependencies {
     implementation(project(":module15:module07:module1"))
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module297:module5"))
     testImplementation(project(":module06:module339:module2"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
 }
 
 android {

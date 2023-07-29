@@ -21,7 +21,7 @@ dependencies {
     api(project(":module06:module321:module10"))
     api(project(":module06:module340:module3"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("javax.annotation:jsr250-api:1.0")
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module183:module7"))
@@ -31,7 +31,7 @@ dependencies {
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

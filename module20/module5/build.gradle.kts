@@ -17,10 +17,10 @@ plugins{
             }
 dependencies {
     api(project(":module16:module4"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("androidx.annotation:annotation:1.1.0")
     implementation(project(":module16:module4"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("junit:junit:4.13")
 }

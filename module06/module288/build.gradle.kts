@@ -25,7 +25,7 @@ dependencies {
     implementation(project(":module06:module243"))
     implementation("com.google.dagger:dagger:2.28")
     implementation("com.jakewharton.timber:timber:4.6.1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module089"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")

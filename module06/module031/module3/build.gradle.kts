@@ -47,7 +47,7 @@ dependencies {
     api("com.squareup.workflow:workflow-runtime-jvm:0.23.2")
     api("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("androidx.annotation:annotation:1.1.0")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     compileOnly("javax.annotation:jsr250-api:1.0")
@@ -113,7 +113,7 @@ dependencies {
     implementation("com.squareup.workflow:workflow-runtime-jvm:0.23.2")
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
 }

@@ -21,7 +21,7 @@ dependencies {
     api(project(":module06:module121:module3"))
     api("androidx.test.espresso:espresso-idling-resource:3.1.0")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module04:module19:module6"))
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module121:module3"))
@@ -29,7 +29,7 @@ dependencies {
     implementation("androidx.test.espresso:espresso-idling-resource:3.1.0")
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

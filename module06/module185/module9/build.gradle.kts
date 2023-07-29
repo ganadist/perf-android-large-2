@@ -18,11 +18,11 @@ plugins{
 dependencies {
     api(project(":module06:module185:module1"))
     api(project(":module06:module185:module8"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module185:module1"))
     implementation(project(":module06:module185:module8"))
     implementation(project(":module06:module255"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

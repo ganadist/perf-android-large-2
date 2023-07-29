@@ -18,12 +18,12 @@ plugins{
 dependencies {
     api(project(":module06:module234:module2"))
     api("org.hamcrest:hamcrest-core:1.3")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module195"))
     implementation(project(":module06:module234:module2"))
     implementation("androidx.test.espresso:espresso-core:3.1.0")
     implementation("org.hamcrest:hamcrest-core:1.3")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

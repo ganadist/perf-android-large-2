@@ -19,7 +19,7 @@ dependencies {
     api(project(":module06:module195"))
     api(project(":module06:module337:module3"))
     api("androidx.test.espresso:espresso-core:3.1.0")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module195"))
     implementation(project(":module06:module201:module1"))
     implementation(project(":module06:module335:module1"))
@@ -28,7 +28,7 @@ dependencies {
     implementation("androidx.test.espresso:espresso-contrib:3.1.0")
     implementation("androidx.test.espresso:espresso-core:3.1.0")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

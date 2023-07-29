@@ -22,7 +22,7 @@ dependencies {
     implementation("com.google.dagger:dagger:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
 }
 
 android {

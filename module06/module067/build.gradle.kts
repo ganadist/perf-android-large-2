@@ -72,7 +72,7 @@ dependencies {
     testImplementation("com.squareup.ui.resources:resources-truth:0.1.11")
     testImplementation("javax.xml.bind:jaxb-api:2.1")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.mockito:mockito-core:2.28.2")
     testImplementation("org.robolectric:robolectric:4.3")
 }

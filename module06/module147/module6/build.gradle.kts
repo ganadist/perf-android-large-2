@@ -24,7 +24,7 @@ dependencies {
     implementation(project(":module06:module109:module1"))
     implementation("com.google.android.gms:play-services-base:17.1.0")
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
 }

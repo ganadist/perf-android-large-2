@@ -19,7 +19,7 @@ dependencies {
     api(project(":module06:module079:module2"))
     api(project(":module17:module12:module3:module3"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module079:module2"))
     implementation(project(":module06:module161:module3"))
     implementation(project(":module06:module298:module3"))
@@ -30,7 +30,7 @@ dependencies {
     implementation(project(":module17:module13:module1"))
     implementation("com.jakewharton.timber:timber:4.6.1")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module197:module1"))
     testImplementation(project(":module06:module295:module7"))
     testImplementation(project(":module06:module342:module4"))
@@ -39,7 +39,7 @@ dependencies {
     testImplementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
 

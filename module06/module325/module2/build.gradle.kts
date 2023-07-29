@@ -20,7 +20,7 @@ dependencies {
     api(project(":module06:module267:module1"))
     api(project(":module06:module324:module4"))
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("javax.inject:javax.inject:1")
     implementation(project(":module06:module207"))
     implementation(project(":module06:module211:module1"))
@@ -28,7 +28,7 @@ dependencies {
     implementation(project(":module06:module324:module4"))
     implementation(project(":module06:module339:module1"))
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

@@ -18,7 +18,7 @@ plugins{
 dependencies {
     api(project(":module17:module01:module3"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module010:module1"))
     implementation(project(":module06:module013:module6"))
     implementation(project(":module06:module095"))
@@ -35,7 +35,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.5.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

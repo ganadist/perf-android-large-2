@@ -20,14 +20,14 @@ dependencies {
     api(project(":module06:module342:module3"))
     api("io.reactivex.rxjava2:rxjava:2.2.19")
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("androidx.annotation:annotation:1.1.0")
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module342:module3"))
     implementation("com.jakewharton.rxrelay2:rxrelay:2.1.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

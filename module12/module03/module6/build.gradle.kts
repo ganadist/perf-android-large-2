@@ -23,7 +23,7 @@ dependencies {
     api(project(":module12:module03:module7"))
     api(project(":module12:module04"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly(project(":module06:module077"))
     compileOnly(project(":module06:module100:module3"))
     compileOnly(project(":module06:module104"))
@@ -39,7 +39,7 @@ dependencies {
     implementation(project(":module12:module03:module7"))
     implementation(project(":module12:module04"))
     implementation("com.google.dagger:dagger:2.28")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module06:module339:module3:module1"))
 }

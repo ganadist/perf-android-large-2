@@ -35,7 +35,7 @@ dependencies {
     api("com.squareup.retrofit2:converter-wire:2.7.2")
     api("com.squareup.retrofit2:retrofit:2.7.2")
     api("io.reactivex.rxjava2:rxjava:2.2.19")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module109:module1"))
     implementation(project(":module06:module161:module3"))
     implementation(project(":module06:module254"))
@@ -57,14 +57,14 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.7.2")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("io.reactivex:rxjava:1.3.8")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:${Versions.kotlin}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module297:module5"))
     testImplementation(project(":module06:module295:module7"))
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
 }
 
 android {

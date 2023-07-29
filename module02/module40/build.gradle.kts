@@ -22,7 +22,7 @@ dependencies {
     api(project(":module06:module109:module1"))
     api(project(":module09:module5"))
     api("com.google.dagger:dagger:2.28")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     compileOnly("javax.annotation:jsr250-api:1.0")
     implementation(project(":module01:module05"))
     implementation(project(":module01:module23"))
@@ -44,8 +44,8 @@ dependencies {
     implementation(project(":module09:module5"))
     implementation("com.google.dagger:dagger:2.28")
     implementation("com.squareup.workflow:workflow-rx2:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:${Versions.kotlin}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     kapt("com.google.dagger:dagger-compiler:2.28")
     testImplementation(project(":module02:module39"))
     testImplementation(project(":module06:module089"))
@@ -55,7 +55,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("com.squareup.workflow:workflow-testing-jvm:0.23.2")
     testImplementation("junit:junit:4.13")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Versions.kotlin}")
     testImplementation("org.robolectric:robolectric:4.3")
 }
 

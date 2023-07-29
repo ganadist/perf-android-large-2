@@ -23,7 +23,7 @@ dependencies {
     api(project(":module06:module340:module3"))
     api(project(":module06:module353:module1"))
     api("com.squareup.workflow:workflow-core-jvm:0.23.2")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module05:module01:module06:module3"))
     implementation(project(":module05:module03:module2"))
     implementation(project(":module06:module090:module3"))
@@ -31,8 +31,8 @@ dependencies {
     implementation(project(":module06:module340:module3"))
     implementation(project(":module06:module353:module1"))
     implementation("com.squareup.workflow:workflow-core-jvm:0.23.2")
-    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-android-extensions-runtime:${Versions.kotlin}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

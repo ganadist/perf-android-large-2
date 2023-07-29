@@ -47,7 +47,7 @@ dependencies {
     implementation("com.squareup.sqlbrite3:sqlbrite-kotlin:3.2.0")
     implementation("io.reactivex.rxjava2:rxjava:2.2.19")
     implementation("junit:junit:4.13")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation("org.robolectric:robolectric:4.3")
     implementation("org.threeten:threetenbp:1.4.0")
     kapt("com.google.dagger:dagger-compiler:2.28")

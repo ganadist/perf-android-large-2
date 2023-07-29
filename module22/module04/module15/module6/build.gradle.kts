@@ -18,10 +18,10 @@ plugins{
 dependencies {
     androidTestImplementation(project(":module22:module04:module15:module6"))
     api(project(":module22:module04:module15:module5"))
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module06:module080:module3"))
     implementation(project(":module22:module04:module15:module5"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 

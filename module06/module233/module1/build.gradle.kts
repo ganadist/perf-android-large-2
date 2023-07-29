@@ -20,7 +20,7 @@ dependencies {
     api(project(":module06:module233:module3"))
     api(project(":module06:module326"))
     api("javax.inject:javax.inject:1")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     implementation(project(":module01:module20"))
     implementation(project(":module06:module030"))
     implementation(project(":module06:module032"))
@@ -28,7 +28,7 @@ dependencies {
     implementation(project(":module06:module233:module3"))
     implementation(project(":module06:module326"))
     implementation("javax.inject:javax.inject:1")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Versions.kotlin}")
     testImplementation(project(":module06:module339:module3:module1"))
 }
 
