@@ -1,0 +1,34 @@
+plugins{
+  id("com.android.library")
+}
+android {
+    compileSdk = 29
+    defaultConfig {
+        minSdk = 25
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+}
+dependencies {
+    annotationProcessor("com.google.dagger:dagger-compiler:2.28")
+    api(project(":module06:module109:module1"))
+    api(project(":module07:module79"))
+    api(project(":module22:module01:module22:module2"))
+    api(project(":module22:module01:module28:module3"))
+    api(project(":module22:module04:module01"))
+    api("com.google.dagger:dagger:2.28")
+    implementation(project(":module06:module109:module1"))
+    implementation(project(":module07:module79"))
+    implementation(project(":module22:module01:module22:module2"))
+    implementation(project(":module22:module01:module28:module3"))
+    implementation(project(":module22:module04:module01"))
+    implementation("com.google.dagger:dagger:2.28")
+    testImplementation(project(":module06:module339:module3:module1"))
+}
+
+android {
+    namespace = "pkg.android.module22.module04.module03"
+}

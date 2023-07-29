@@ -1,0 +1,40 @@
+plugins{
+  id("com.android.library")
+  id("kotlin-android")
+  id("kotlin-kapt")
+}
+            android {
+                compileSdk = 29
+                defaultConfig {
+                    minSdk = 21
+                }
+                compileOptions {
+                    sourceCompatibility = JavaVersion.VERSION_1_8
+                    targetCompatibility = JavaVersion.VERSION_1_8
+                }
+                kotlinOptions {
+    jvmTarget = "1.8"
+}
+            }
+dependencies {
+    api(project(":module01:module39"))
+    api("io.reactivex.rxjava2:rxjava:2.2.19")
+    compileOnly("javax.annotation:jsr250-api:1.0")
+    implementation(project(":module01:module13"))
+    implementation(project(":module01:module39"))
+    implementation(project(":module06:module097:module6"))
+    implementation(project(":module06:module141:module1:module13"))
+    implementation(project(":module06:module243"))
+    implementation(project(":module06:module326"))
+    implementation(project(":module06:module357"))
+    implementation(project(":module06:module358"))
+    implementation(project(":module15:module05:module2"))
+    implementation(project(":module15:module56:module1"))
+    implementation("io.reactivex.rxjava2:rxjava:2.2.19")
+    kapt("com.google.dagger:dagger-compiler:2.28")
+    testImplementation(project(":module06:module339:module3:module1"))
+}
+
+android {
+    namespace = "pkg.android.module01.module40"
+}
