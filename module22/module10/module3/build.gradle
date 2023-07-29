@@ -1,14 +1,13 @@
 apply plugin: "com.android.application"
 apply plugin: "kotlin-android"
             android {
-                compileSdkVersion = "android-29"
+                compileSdk = 29
                 defaultConfig {
-                    minSdkVersion 25
-                    targetSdkVersion 25
+                    minSdk = 25
                 }
                 compileOptions {
-                    sourceCompatibility JavaVersion.VERSION_1_8
-                    targetCompatibility JavaVersion.VERSION_1_8
+                    sourceCompatibility = JavaVersion.VERSION_1_8
+                    targetCompatibility = JavaVersion.VERSION_1_8
                 }
                 kotlinOptions {
     jvmTarget = "1.8"
