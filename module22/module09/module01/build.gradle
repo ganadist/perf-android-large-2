@@ -51,3 +51,7 @@ dependencies {
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("junit:junit:4.13")
 }
+
+android {
+    namespace = "pkg.android.module22.module09.module01"
+}

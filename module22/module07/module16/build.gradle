@@ -95,3 +95,7 @@ dependencies {
     testImplementation("junit:junit:4.13")
     testImplementation("org.mockito:mockito-core:2.28.2")
 }
+
+android {
+    namespace = "pkg.android.module22.module07.module16"
+}

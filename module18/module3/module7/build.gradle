@@ -23,3 +23,7 @@ dependencies {
     implementation(project(":module18:module3:module9"))
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace = "pkg.android.module18.module3.module7"
+}

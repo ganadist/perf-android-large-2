@@ -23,3 +23,7 @@ dependencies {
     implementation("javax.inject:javax.inject:1")
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace = "pkg.android.module06.module178.module3"
+}

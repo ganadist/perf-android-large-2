@@ -52,3 +52,7 @@ dependencies {
     testImplementation("org.robolectric:robolectric:4.3")
     testImplementation("org.threeten:threetenbp:1.4.0")
 }
+
+android {
+    namespace = "pkg.android.module02.module09.module4"
+}

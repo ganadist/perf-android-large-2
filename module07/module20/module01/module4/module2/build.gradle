@@ -41,3 +41,7 @@ dependencies {
     testImplementation("org.mockito:mockito-core:2.28.2")
     testImplementation("org.robolectric:robolectric:4.3")
 }
+
+android {
+    namespace = "pkg.android.module07.module20.module01.module4.module2"
+}

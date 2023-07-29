@@ -66,3 +66,7 @@ dependencies {
     testImplementation(project(":module06:module339:module3:module1"))
     testImplementation("com.google.truth:truth:1.0")
 }
+
+android {
+    namespace = "pkg.android.module07.module24"
+}

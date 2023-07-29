@@ -27,3 +27,7 @@ dependencies {
     implementation("com.squareup.workflow:workflow-ui-core-android:0.23.2")
     testImplementation(project(":module06:module339:module3:module1"))
 }
+
+android {
+    namespace = "pkg.android.module07.module39.module4.module4"
+}

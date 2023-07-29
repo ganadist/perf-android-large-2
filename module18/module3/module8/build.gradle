@@ -29,3 +29,7 @@ dependencies {
     testImplementation("com.google.truth:truth:1.0")
     testImplementation("junit:junit:4.13")
 }
+
+android {
+    namespace = "pkg.android.module18.module3.module8"
+}

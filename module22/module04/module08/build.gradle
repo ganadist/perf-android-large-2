@@ -45,3 +45,7 @@ dependencies {
     testImplementation("com.squareup.workflow:workflow-testing-jvm:0.23.2")
     testImplementation("junit:junit:4.13")
 }
+
+android {
+    namespace = "pkg.android.module22.module04.module08"
+}

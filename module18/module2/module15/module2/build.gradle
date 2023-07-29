@@ -42,3 +42,7 @@ dependencies {
     testImplementation("junit:junit:4.13")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.72")
 }
+
+android {
+    namespace = "pkg.android.module18.module2.module15.module2"
+}
